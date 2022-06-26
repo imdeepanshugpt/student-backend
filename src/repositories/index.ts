@@ -1,1 +1,2 @@
-export * from './prices.repository';
+
+export * from './users.repository';

@@ -1,15 +1,6 @@
-# bitcoin-app
+# student-backend
 
 ## use env variable like this.
-
-```sh
-host = smtp.mailtrap.io
-port = 25 or 465 or 587 or 2525
-username = xxxx
-password = xxxx
-minPrice = 20000
-maxPrice = 29736
-```
 
 use http://localhost:3000/explore to see swagger for API documentation
 

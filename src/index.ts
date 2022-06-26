@@ -4,7 +4,6 @@ const dotenv = require('dotenv').config();
 export * from './application';
 
 export async function main(options: ApplicationConfig = {}) {
-  console.log(process.env);
   const app = new BitcoinAppApplication(options);
   await app.boot();
   await app.start();
